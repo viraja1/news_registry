@@ -13,6 +13,14 @@ News Registry incentivizes fact checking and quality. It helps to build a curati
 ### Add News
 ![](screenshots/news_3.png)
 
+## Features
+* News Registry allows users to post news articles.
+* Other users can either upvote or downvote the news.
+* Users can share facts related to the news.
+* Other users can either upvote  or downvote the facts.
+* If news gets more upvotes than downvotes, then it could be genuine.
+
+
 ## Getting Started
 
 1) Clone Repo
