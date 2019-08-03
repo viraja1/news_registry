@@ -42,35 +42,44 @@ News Registry incentivizes fact checking and quality. It helps to build a curati
     
     ```
     vi src/components/config.js
+    ```
+5) Create tables using Fluence app console
+
+    ```
+    CREATE TABLE news(id int, user varchar(128), upVotes int, downVotes int, url varchar(1024), title varchar(1024), description varchar(2048))
+    ```
+    
+    ```
+    CREATE TABLE news_facts(id int, news_id int, user varchar(128), upVotes int, downVotes int,  text varchar(2048))
     ``` 
 
-5) Build client app
+6) Build client app
 
     ```
     npm install
     ```
     
-6) Start client app
+7) Start client app
 
     ```
     npm start
     ```
     
-7) Open client app url in chrome
+8) Open client app url in chrome
 
     ```
     http://localhost:8080
     ```
     
-8) Install Metamask chrome extension
+9) Install Metamask chrome extension
 
     ```
     https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en
     ```
     
-9) Create account in metamask
+10) Create account in metamask
      
-10) Test the App
+11) Test the App
 
     Make sure that you have selected the right network using 
     metamask (Rinkeby). 
