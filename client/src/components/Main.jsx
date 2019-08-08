@@ -44,7 +44,7 @@ export default class Main extends Component {
 
   async handleNewsSubmit(event, history) {
     let newNews = this.state.newNews;
-    let url_regex = /(https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*))/g;
+    let url_regex = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,24}(:[0-9]{1,5})?(\/.*)?$/g;
     if (typeof newNews.title === "undefined" || newNews.title.trim() === "") {
       this.setState({error: "Valid title is required"});
       return;
