@@ -129,7 +129,9 @@ class ListNews extends Component {
     return (
       <div className="col-md-12 news">
         <br/>
-        <p className="h3" style={{textTransform: 'capitalize'}}>News</p>
+        <p className="h3" style={{textTransform: 'capitalize'}}>Community Curated News</p>
+        <p>Submit link of new news articles or add facts supporting the existing news articles.
+          Support the community by upvoting or downvoting the news or facts</p>
         <br/>
         {isLoading && <span>Fetching News...<br/><br/></span>}
         <StackGrid columnWidth={width <= 768 ? '100%' : '33.33%'} gutterWidth={10} gutterHeight={10} duration={0}>
