@@ -147,7 +147,7 @@ class ListNews extends Component {
                     <FaArrowDown onClick={e => downVoteNews(e, n.id, n.downVotes)}
                                  style={{cursor: 'pointer'}}/>{n.downVotes}
                   </div>
-                  <a href={n.url.replace(/，/g, ",")} target="_blank"><FaExternalLinkAlt/></a>
+                  <a href={n.url.indexOf('http') === -1 ? "//" + n.url.replace(/，/g, ",") : n.url.replace(/，/g, ",")} target="_blank"><FaExternalLinkAlt/></a>
                   <br/>
                   <FaListAlt onClick={e => this.handleShow(e, n.id)} style={{cursor: 'pointer'}}/>
                 </Card.Body>
