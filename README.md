@@ -2,11 +2,11 @@
 
 News Registry incentivizes fact checking and quality. It helps to build a curative reputation. It allows credit to be given to original sources. You can submit link of new news articles or add facts supporting the existing news articles. Support the community by upvoting or downvoting the news or facts.
 
-## Demo
+## App URL
 
 Metamask extension is required to test the app (Rinkeby network)
 
-http://newsregistry.surge.sh/
+http://newsregistry.surge.sh/  (Fluence App 326)
 
 ## Screenshots
 
