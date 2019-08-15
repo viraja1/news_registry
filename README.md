@@ -5,6 +5,7 @@ News Registry incentivizes fact checking and quality. It helps to build a curati
 # Demo
 
 Metamask extension is required to test the app (Rinkeby network)
+
 http://newsregistry.surge.sh/
 
 ## Screenshots
