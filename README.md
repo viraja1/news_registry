@@ -2,6 +2,11 @@
 
 News Registry incentivizes fact checking and quality. It helps to build a curative reputation. It allows credit to be given to original sources.
 
+# Demo
+
+Metamask extension is required to test the app (Rinkeby network)
+http://newsregistry.surge.sh/
+
 ## Screenshots
 
 ### News List
